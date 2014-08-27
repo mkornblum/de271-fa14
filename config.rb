@@ -17,3 +17,6 @@ fonts_dir = "source/fonts"
 
 line_comments = false
 output_style = :compressed
+
+add_import_path "bower_components/foundation/scss"
+javascripts_dir = "source/js"

@@ -1,0 +1,45 @@
+---
+title: "Blog"
+subtitle: "Optional Subtitle"
+layout: default
+sidebar: true
+sidebar_left: false
+---
+<div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-8 large-push-4 {% else %}large-8 {% endif %}columns">
+  {% if page.title %}
+    <header class="page-header">
+      <h1 class="page-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% if page.subtitle %}<h1 class="subheader">{{ page.subtitle }}</h1>{% endif %}
+    </header>
+  {% endif %}
+  <div class="blog-index">
+    {% assign index = true %}
+    {% for post in paginator.posts %}
+    {% assign content = post.content %}
+      <article>
+        {% include article.html %}
+      </article>
+      {% unless post == paginator.posts.last %}
+      <hr>
+      {% endunless %}
+    {% endfor %}
+    <div class="pagination">
+      {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+      <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+  {% unless page.sidebar == false %}
+  <aside class="sidebar small-12 medium-12{% if page.sidebar_left %} large-pull-8{% endif %} large-4 columns">
+    {% if site.page_asides.size %}
+      {% include_array page_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </aside>
+  {% endunless %}

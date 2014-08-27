@@ -1,0 +1,43 @@
+{% if site.fixed_navigation %}
+<div class="sticky" data-options="">
+{% endif %}
+  <nav class="top-bar" data-topbar>
+
+    <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="{{ root_url }}/">{{ site.title }} <i class="fa fa-heart"></i></i></i></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+          <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/">Home</a></li>
+
+          <li class="has-dropdown{% if page.url == '/no-sidebar/index.html' or page.url == '/no-sidebar/left-sidebar/index.html' or page.url == '/no-sidebar/right-sidebar/index.html' or page.url == '/no-sidebar/example-formatting/index.html' %} active{% endif %}">
+            <a href="{{ root_url }}/no-sidebar">No Sidebar Page</a>
+
+            <ul class="dropdown">
+              <li><a href="{{ root_url }}/no-sidebar/left-sidebar">Left Sidebar Page</a></li>
+              <li><a href="{{ root_url }}/no-sidebar/right-sidebar">Right Sidebar Page</a></li>
+              <li><a href="{{ root_url }}/no-sidebar/example-formatting">Example Formatting</a></li>
+            </ul>
+
+          </li>
+
+          <li{% if page.url == '/blog/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/blog">Blog</a></li>
+
+          <li{% if page.url == '/blog/archives/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/blog/archives">Archives</a></li>
+
+      </ul>
+
+    </section>
+  </nav>
+{% if site.fixed_navigation %}
+</div>
+{% endif %}

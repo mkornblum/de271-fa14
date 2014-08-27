@@ -1,0 +1,397 @@
+@import "settings";
+@import "compass";
+@import "foundation";
+@import "solarized";
+@import "syntax";
+@import "font-awesome/font-awesome";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+/* applies default font properties to most of the body */
+
+p{
+	font-weight: $body-font-weight;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	border-bottom: $body-paragraph-margin;
+	@media #{$small-only} {
+		font-size: $body-font-size - 2px;
+	}
+}
+
+strong{
+	font-weight: $bold-font-weight;
+}
+
+/* applies link animations throughout site */
+
+a{
+	@include transition(color 0.3s ease);
+	cursor: pointer;
+	&:hover{
+		@include transition(color 0.3s ease);
+		i{
+			@include transition(color 0.3s ease);
+		}
+	}
+	i{
+		@include transition(color 0.3s ease);
+	}
+	&.button{
+		@include transition(background 0.3s ease, background-color 0.3s ease);
+		&:hover{
+			@include transition(background 0.3s ease, background-color 0.3s ease);
+		}
+	}
+}
+
+article{
+	header{
+
+		/* styles the date & icon that appear below entry titles */
+
+		p.meta{
+			margin-top: -8px;
+			font-size: $body-font-size + 2px;
+			i{
+				font-size: $body-font-size;
+				color: $icon-color;
+				padding-right: 4px;
+				padding-left: 3px;
+			}
+		}
+	}
+
+	footer{
+		.meta{
+			.categories{
+
+			/* styles category icon at the bottom of an entry page */
+
+				i{
+					color: $icon-color;
+					padding-right: 4px;
+				}
+			}
+		}
+		.sharing{
+			margin-bottom: 30px;
+			margin-top: 30px;
+		}
+	}
+}
+
+/* applies to pagination elements */
+
+.basic-alignment{
+	margin-bottom: 30px;
+	&.right, &.left{
+		width: 50%;
+		display: inline-block;
+	}
+	&.right{
+		text-align: right;
+	}
+	&.left{
+		text-align: left;
+	}
+}
+.pagination{
+	margin-top: 30px;
+
+	.next, .prev{
+		width: 50%;
+		display: inline-block;
+	}
+	.next{
+		float: right;
+		text-align: right;
+	}
+	.prev{
+		float: left;
+		text-align: left;
+	}
+}
+
+/* applies to <small></small> tags that can be used inside h1, h2, etc. */
+
+small{
+	font-weight: $body-font-weight;
+	font-style: italic;
+	font-family: $body-font-family;
+}
+
+/* formats main headers */
+
+h1{
+	font-size: 40px;
+	
+	&.subheader{
+		font-size: 24px;
+		font-style: italic;
+		font-family: $body-font-family;
+		font-weight: $body-font-weight;
+		margin-top: -4px;
+	}
+
+	&.entry-title{
+		font-size: 30px;
+	}
+
+}
+
+aside h1, .page-header{
+	border-bottom: 3px solid $bottom-border-color;
+}
+
+.page-header{
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	h1.page-title{
+		margin-bottom: 0;
+	}
+}
+aside{
+	h1{
+		font-size: 30px;
+		i{
+			font-size: 26px;
+			padding-left: 2px;
+		}
+	}
+	.googleplus{
+		margin-top: 30px;
+		h3{
+			a{
+				i{
+					color: $icon-color;
+				}
+				&:hover{
+					i{
+						color: darken($icon-color, 5%);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* adds spacing between nav bar and content */
+
+#main{
+	padding-top: 30px;
+}
+
+/* formats footer at the bottom of the page */
+
+footer{
+	p{
+		font-size: $body-font-size - 2px;
+		padding-top: 30px;
+
+		@media #{$small-only} {
+			font-size: $body-font-size - 4px;
+		}
+		.copyright{
+			color: $header-font-color;
+			font-family: $header-font-family;
+			font-size: $body-font-size + 2px;
+			padding-bottom: 8px;
+			display: block;
+		}
+	}
+}
+
+/* formats "MENU" text that appears for mobile nav menu */
+
+.top-bar{
+	.toggle-topbar a{
+		font-family: $header-font-family;
+		font-weight: $header-font-weight;
+	}
+
+	/* protects title portion on small screen sizes */
+	/* you may need to change min-width, depending on how long your title is */
+
+	.name{
+		h1{
+			a{
+				padding: 0 0 0 15px;
+				min-width: 220px;
+
+				/* makes heart icon pink! */
+
+				i{
+					color: lighten($header-font-color, 15%);
+				}
+
+				&:hover{
+					color: darken($topbar-link-color, 10%);
+					i{
+						color: lighten($header-font-color, 8%);
+					}
+				}
+			}
+		}
+	}
+
+	/* increase letter spacing on menu links */
+
+	.top-bar-section ul li>a{
+		letter-spacing: $topbar-link-letterspacing;
+	}
+}
+
+/* formats pullquotes */
+
+.pullquote-right:before,
+.pullquote-left:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+
+  /* content */
+  content: attr(data-pullquote);
+
+  /* pull out to the right, modular scale based margins. */
+  float: right;
+  width: 45%;
+  margin: .5em 0 1em 1.5em;
+
+  /* baseline correction */
+  position: relative;
+  top: 7px;
+  font-size: 1.4em;
+  line-height: 1.45em;
+  color: black;
+  @media #{$small-only} {
+  	font-size: 1.2em;
+  	margin: 0.2em 0 0.5em 0.5em;
+  }
+}
+
+.pullquote-left:before {
+  /* makes left pullquotes align properly. */
+  float: left;
+  margin: .5em 1.5em 1em 0;
+}
+
+/* formats blockquotes */
+
+blockquote{
+	border-left: 3px solid $primary-color;
+	padding: 0.6rem 1.25rem;
+	font-size: $body-font-size + 4px;
+	color: black;
+	p{
+		font-size: $body-font-size + 2px;
+		color: black;
+	}
+	footer{
+		font-size: $body-font-size;
+		color: $body-font-color;
+		strong{
+			color: $body-font-color;
+		}
+		cite{
+			display: inline-block;
+			font-size: $body-font-size - 2px;
+			color: $body-font-color;
+		}
+	}	
+}
+
+/* formats images */
+
+img.left, img.right{
+	@if $boxed_images == true {
+		@include border-radius($global-radius);
+		border: 12px solid white;
+		@include box-shadow(#aaaaaa 1px 1px 8px);
+	}
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img.left{
+	margin-right: 20px;
+}
+
+img.right{
+	margin-left: 20px;
+}
+
+/* formats line that separates blog entries */
+
+hr{
+	border-width: 3px 0 0;
+}
+
+/* formats date & category archive pages */
+
+#blog-archives{
+	footer, time{
+		padding-left: 20px;
+		font-size: $body-font-size + 2px;
+		i{
+			color: $icon-color;
+			font-size: $body-font-size;
+			padding-right: 6px;
+		}
+	}
+	footer{
+		line-height: $body-line-height;
+		margin-bottom: 20px;
+	}
+	time{
+		line-height: $body-line-height;
+		
+	}
+	h1{
+		margin-bottom: 0;
+		padding-left: 10px;
+	}
+}
+
+/* applies font color to <code> tags */
+
+code{
+	color: $subheader-font-color;
+}
+

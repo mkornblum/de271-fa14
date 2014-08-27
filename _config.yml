@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: https://mkornblum.github.io/de271-fa14
+title: DE271 Fall 2014
+subtitle: Cornish College of the Arts
+author: Mark Kornblum
 simple_search: https://www.google.com/search
 description:
 
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /de271-fa14
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/de271-fa14
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories

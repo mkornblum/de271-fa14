@@ -73,12 +73,10 @@ Upon successful completion of this course, students will be able to:
 
 ### Assignments:
 
-#TODO - new assignment??? Mobile first design?
-
 There are 2 larger assignments:
 
 1. Food Packaging as a Website (HTML and CSS specific)
-3. Interactive prototype application (final class project)
+2. Interactive prototype application (final class project)
 
 As well as 4 smaller assignments:
 
@@ -87,15 +85,19 @@ As well as 4 smaller assignments:
 3. CSS Practice Worksheet
 4. CSS Box Model Exercises
 
+There is also one "TBD" assignment, which will count for approximately
+20% of your final grade. It is likely to be either a
+javascript or user experience related assignment, and will be
+determined based on feedback from the first few weeks of class.
+
 ## Course Evaluation
 
 - Assignments 1-4: 5% Each (20% aggregate)
 - Food Packaging Project: 20%
+- TBD assignment: 20%
 - Final interactive prototype: 30%
 - Participation: 5%
 - Professionalism: 5%
-
-#TODO: 20% of grade missing
 
 ## Department Policies
 

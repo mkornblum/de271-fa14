@@ -279,14 +279,14 @@ In-Class exercise:  Create a simple site that links 2 files.
 
 _Homework:_
 
-*READ*:
+1. Fill out the class [entry survey](https://docs.google.com/forms/d/1KZaB9_bQeBLy9Dgrweibnqb0ABu81TtLTqb0pF-5rm0/viewform?usp=send_form).
 
-*SIGN UP*: Create a Github account for yourself here: https://github.com/
+2. [Create a Github account for yourself](https://github.com/)
 
-*WRITE*: Find two sites or applications that are examples of
+3. *WRITE*: Find two sites or applications that are examples of
 successful interactive design and two other sites which are not
 successful. Write a couple of paragraphs about each one detailing why
-it works or doesn't work.
+it works or doesn't work. Save this in a plain text file.
 
 Ask Yourself:
 
@@ -304,16 +304,13 @@ Discussion/Lecture:
 - Committing and pushing
 - HTML Intro (if time)
 
-_Homework:_
-1. Watch Video instruction:
-## TODO: add vimeo link
-
-2. Transform your text file from last week into a web page. At a
-   minimum, you should use several different header tags (\<h1\>,
-   \<h2\>, etc), a link ("\<a\>" tag) to each of the sites you cite,
-   paragraph (\<p\>) tags, etc. Your page should validate, and your
-   use of tags should make sense semantically. Use the \<img\> tag to
-   include a screenshot of each page you mention.
+_Homework:_  
+Transform your text file from last week into a web
+page. At a minimum, you should use several different header tags
+(\<h1\>, \<h2\>, etc), a link ("\<a\>" tag) to each of the sites you
+cite, paragraph (\<p\>) tags, etc. Your page should validate, and your
+use of tags should make sense semantically. Use the \<img\> tag to
+include a screenshot of each page you mention.
 
 When you're done, put everything into one directory (your HTML page
 plus any image files you used) commit it, and push to Github.

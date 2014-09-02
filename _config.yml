@@ -29,7 +29,7 @@ email:
 root: /de271-fa14
 permalink: /:year/:month/:day/:title/
 source: source
-destination: public/de271-fa14
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: categories

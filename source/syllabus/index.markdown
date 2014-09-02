@@ -299,6 +299,13 @@ Ask Yourself:
 - Are you critiquing the application's visual interface, branding, or
 functionality? All of those? None?
 
+4. *READ*: Here are a couple of guides to Git and Github for new
+   users. Take a look through them.
+
+- [Github For Beginners: Don't get scared, get started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+- [Beginner's Setup Guide for Git & Github on Mac OSX](burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/)
+
+
 **Thursday, September 4th**
 
 Discussion/Lecture:

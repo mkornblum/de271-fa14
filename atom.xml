@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-09-02T13:25:07-07:00</updated>
+  <updated>2014-09-04T12:53:41-07:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github for Mac]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/09/04/github-for-mac/"/>
+    <updated>2014-09-04T12:52:36-07:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/09/04/github-for-mac</id>
+    <content type="html"><![CDATA[<p><a href="https://mac.github.com/">Download the &ldquo;Github for Mac&rdquo; application.</a></p>
+
+<p>Then <a href="https://mac.github.com/help.html">review the getting started guide</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome to the DE271-FA14 Course Blog]]></title>

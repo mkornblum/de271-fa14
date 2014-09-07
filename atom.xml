@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-09-04T12:53:41-07:00</updated>
+  <updated>2014-09-07T12:47:55-07:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Class 2 Video - Intro to Github]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/09/07/class-2-video-intro-to-github/"/>
+    <updated>2014-09-07T12:45:27-07:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/09/07/class-2-video-intro-to-github</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s the video from class on Thursday:</p>
+
+<iframe src="//player.vimeo.com/video/105496410" width="600" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<p>For anyone on an older version of Mac OSX (especially anyone on 10.7),
+I highly suggest upgrading to the latest version, 10.9. You can do so
+for free. Apple
+<a href="https://www.apple.com/osx/how-to-upgrade/">has instructions on their site</a>
+if you need help, or you can ask Cornish IT Support or go to the Apple Store.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github for Mac]]></title>

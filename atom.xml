@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-09-07T12:47:55-07:00</updated>
+  <updated>2014-09-10T23:34:19-07:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HTML Intro Video (Class 3)]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/09/10/html-intro-video-class-3/"/>
+    <updated>2014-09-10T23:10:32-07:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/09/10/html-intro-video-class-3</id>
+    <content type="html"><![CDATA[<iframe src="//player.vimeo.com/video/105840572" width="500"
+height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+
+<p>Example code from the video is available <a href="https://github.com/mkornblum/de271-fa14-examples/commit/6e34b2150d38fcb0e4cfcbf7aa2477737a8a5f6e">on Github</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Class 2 Video - Intro to Github]]></title>

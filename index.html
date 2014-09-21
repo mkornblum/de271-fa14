@@ -9,8 +9,9 @@
   <meta name="author" content="Mark Kornblum">
 
   
-  <meta name="description" content="Here&rsquo;s the video from Tuesday&rsquo;s class: The code from the video, as usual, is on Github
-">
+  <meta name="description" content="Instructions Download the file below to a folder on your computer. I suggest a new
+folder inside whatever folder you are already using for this
+class &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +68,144 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/de271-fa14/2014/09/21/first-css-worksheet/">First CSS Worksheet</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-09-21T00:31:00-07:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>12:31 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>Instructions</h3>
+
+<p>Download the file below to a folder on your computer. I suggest a new
+folder inside whatever folder you are already using for this
+class.</p>
+
+<p>You will need to create a CSS file called &ldquo;style.css&rdquo;. There are 5
+mandatory tasks and 3 optional tasks specified in the HTML. You should
+generally be able to complete the assignment without editing the HTML
+at all (just write CSS).</p>
+
+<p>This assignment is due on Thursday.</p>
+
+<figure class='code'><figcaption><span> (selectors_challenge.html)</span> <a href='/de271-fa14/downloads/code/selectors_challenge.html'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span class='line'><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;head&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span> <span class="nt">/&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;title&gt;</span>Selectors challenge<span class="nt">&lt;/title&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;style.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/head&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;body&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nt">&lt;h1&gt;</span>Selectors challenge<span class="nt">&lt;/h1&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nt">&lt;p&gt;</span>In this exercise you will start off with some ready-made HTML, and write some CSS to solve the problems set out in the following questions. You can find the ready-made HTML in the file <span class="nt">&lt;code&gt;</span>selectors_challenge.html<span class="nt">&lt;/code&gt;</span>. Download a copy of this file to your computer and turn it in along with a CSS file of your creation.
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;mandatory&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;h2&gt;&lt;a&gt;</span>Mandatory tasks<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>The basic, mandatory tasks are as follows. These are simple exercises designed to test your knowledge of CSS selectors. Each one of these should take you only a minute or so to apply, once you have got your style sheet set up. If you get stuck, refer back to Chapter 11 of the book.<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;ol&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Write a rule that will apply the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Georgia_(typeface)&quot;</span> <span class="na">title=</span><span class="s">&quot;link to more information about the Georgia typeface&quot;</span><span class="nt">&gt;</span>Georgia<span class="nt">&lt;/a&gt;</span> font to every element on the Web page. Apply this rule to the HTML using whatever method you think is best.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Give the <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>div<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> elements a light-colored background (your choice), and apply 10 pixels of padding between the content inside the divs and their edges.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Make whole page&#39;s content 500 pixels in width.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Apply a dark-colored border (your choice of color and style) to the <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>div<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> elements.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Override the previous font setting just for the headings—make every heading use the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Helvetica&quot;</span><span class="nt">&gt;</span>Helvetica<span class="nt">&lt;/a&gt;</span> font (or another <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Sans-serif&quot;</span> <span class="na">title=</span><span class="s">&quot;Definition of the term sans-serif&quot;</span><span class="nt">&gt;</span>sans-serif<span class="nt">&lt;/a&gt;</span> font of your choice).<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/ol&gt;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;advanced&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;h2&gt;</span>Advanced optional tasks<span class="nt">&lt;/h2&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>The more advanced, optional tasks are as follows. These are more complicated tasks that will give you more of a challenge. Some of them will require a bit more research and implementation time than the basic tasks, but the information you require will still be available through the book or online.<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;ol&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Apply a <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.webopedia.com/TERM/D/drop_cap.html&quot;</span> <span class="na">title=</span><span class="s">&quot;Definition of drop cap&quot;</span><span class="nt">&gt;</span>drop-cap<span class="nt">&lt;/a&gt;</span> (increased-size first letter) to paragraphs that come directly after <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>h2<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> elements, but no others.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Apply pseudo-classes to the links so that they are a different color to the rest of the text, and when you mouse over them, the underline disappears.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>Use CSS3 selectors to give the <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>div<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> elements rounded corners and a subtle <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Drop_shadow&quot;</span><span class="nt">&gt;</span>drop shadow<span class="nt">&lt;/a&gt;</span>. The relevant properties may not work in older browsers.<span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/ol&gt;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>  <span class="nt">&lt;/body&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -249,6 +388,10 @@ if you need help, or you can ask Cornish IT Support or go to the Apple Store.</p
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/de271-fa14/2014/09/21/first-css-worksheet/">First CSS Worksheet</a>
+      </li>
+    
+      <li class="post">
         <a href="/de271-fa14/2014/09/17/html-part-2-and-more-git/">HTML Part 2 (and More Git)</a>
       </li>
     
@@ -262,10 +405,6 @@ if you need help, or you can ask Cornish IT Support or go to the Apple Store.</p
     
       <li class="post">
         <a href="/de271-fa14/2014/09/04/github-for-mac/">Github for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/de271-fa14/2014/08/26/welcome-to-the-de271-fa14-course-blog/">Welcome to the DE271-FA14 Course Blog</a>
       </li>
     
   </ul>

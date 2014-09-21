@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>https://mkornblum.github.io/de271-fa14/2014/09/21/css-intro-video-and-example-code/</loc>
+    <lastmod>2014-09-21T13:13:44-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://mkornblum.github.io/de271-fa14/2014/09/21/first-css-worksheet/</loc>
     <lastmod>2014-09-21T00:31:00-07:00</lastmod>
     <priority>0.8</priority>
@@ -41,21 +47,28 @@
   
   <url>
     <loc>https://mkornblum.github.io/de271-fa14/archives/</loc>
-    <lastmod>2014-09-21T00:35:47-07:00</lastmod>
+    <lastmod>2014-09-21T13:34:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://mkornblum.github.io/de271-fa14/</loc>
-    <lastmod>2014-09-21T00:35:47-07:00</lastmod>
+    <lastmod>2014-09-21T13:34:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://mkornblum.github.io/de271-fa14/syllabus/</loc>
-    <lastmod>2014-09-21T00:35:47-07:00</lastmod>
+    <lastmod>2014-09-21T13:34:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://mkornblum.github.io/de271-fa14/resources/</loc>
+    <lastmod>2014-09-21T13:34:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

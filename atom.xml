@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-09-21T00:35:47-07:00</updated>
+  <updated>2014-09-21T13:34:13-07:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CSS Intro Video and Example Code]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/09/21/css-intro-video-and-example-code/"/>
+    <updated>2014-09-21T13:13:44-07:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/09/21/css-intro-video-and-example-code</id>
+    <content type="html"><![CDATA[<iframe src="//player.vimeo.com/video/106752372" width="500"
+height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+
+<p>The example code is <a href="https://github.com/mkornblum/de271-fa14-examples">on Github</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First CSS Worksheet]]></title>

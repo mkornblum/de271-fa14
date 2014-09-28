@@ -27,6 +27,8 @@ footer: true
 
 - [List of all HTML Tags](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
 - [List of CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Gridlover](http://www.gridlover.net/) - tool to help establish
+  typographic rhythm using CSS
 
 ###Meetups and Things Like That
 

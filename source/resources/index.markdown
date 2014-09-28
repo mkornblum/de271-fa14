@@ -27,3 +27,13 @@ footer: true
 
 - [List of all HTML Tags](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
 - [List of CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+###Meetups and Things Like That
+
+- [Creative Mornings](http://creativemornings.com/cities/sea)
+- [Ignite Seattle](http://igniteseattle.com/)
+- [Design Thinking & Innovation Collective](http://www.meetup.com/Design-Thinking-Innovation-Collective/)
+- [IxDA Seattle](http://ixdaseattle.org/)
+- [SeaTech Connect](http://www.meetup.com/SeaTech-Connect/)
+- [Refresh Seattle](http://www.refreshseattle.org/)
+- [Women Who Code Seattle](http://www.meetup.com/Women-Who-Code-Seattle/)

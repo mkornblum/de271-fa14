@@ -9,7 +9,8 @@
   <meta name="author" content="Mark Kornblum">
 
   
-  <meta name="description" content=" ">
+  <meta name="description" content="Instructions Similar to the previous assignment! Download the file below to a
+folder on your computer. I suggest a new folder inside whatever folder &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -68,6 +69,227 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/de271-fa14/2014/09/27/second-css-worksheet/">Second CSS Worksheet</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-09-27T22:39:22-07:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>10:39 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>Instructions</h3>
+
+<p>Similar to the previous assignment! Download the file below to a
+folder on your computer. I suggest a new folder inside whatever folder
+you are already using for this class.</p>
+
+<p>You will need to create a CSS file called &ldquo;style.css&rdquo;. There are 10
+tasks specified in the HTML. You should generally be able to complete
+the assignment without editing the HTML (just write CSS), although if
+you want to add classes or ids in the HTML to make your life easier,
+feel free.</p>
+
+<p>This assignment is due on Thursday.</p>
+
+<figure class='code'><figcaption><span> (css_worksheet_two.html)</span> <a href='/de271-fa14/downloads/code/css_worksheet_two.html'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span class='line'><span class="nt">&lt;html&gt;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nt">&lt;head&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;title&gt;</span>DE271 CSS Worksheet #2<span class="nt">&lt;/title&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;style.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen, projection&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/head&gt;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nt">&lt;body&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;wrapper&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;header&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;h1&gt;</span>DE271 Fall 2013 CSS Worksheet #2<span class="nt">&lt;/h1&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;nav&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;ul&gt;</span>
+</span><span class='line'>            <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+</span><span class='line'>            <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>News<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+</span><span class='line'>            <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Archives<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+</span><span class='line'>            <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;/ul&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/nav&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;/header&gt;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;p&gt;</span>
+</span><span class='line'>          Much like last week, you have a number of CSS challenges before you. Follow
+</span><span class='line'>          along and by the time you&#39;re done, you&#39;ll have completed your first all-css page
+</span><span class='line'>          layout. (It&#39;s going to be a single-column layout, with a horizontal nav.)
+</span><span class='line'>        <span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="nt">&lt;h2&gt;</span>Tasks<span class="nt">&lt;/h2&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;ol&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Choose a font, font-size, and color. Consider if headers should be distinct
+</span><span class='line'>            from lists or body text. Set the <span class="nt">&lt;code&gt;</span>body<span class="nt">&lt;/code&gt;</span> background color to be
+</span><span class='line'>            different than the <span class="nt">&lt;code&gt;</span>.wrapper<span class="nt">&lt;/code&gt;</span> div&#39;s background color.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Choose an overall width (hint: set this on the wrapper div), and make the page
+</span><span class='line'>            auto-center even as the browser size changes. (hint: use <span class="nt">&lt;code&gt;</span>margin: 20px
+</span><span class='line'>            auto<span class="nt">&lt;/code&gt;</span> or something similar)
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Adjust <span class="nt">&lt;code&gt;</span>padding<span class="nt">&lt;/code&gt;</span> and <span class="nt">&lt;code&gt;</span>line-height<span class="nt">&lt;/code&gt;</span> until you&#39;re happy
+</span><span class='line'>            with the general typography of your document.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Set <span class="nt">&lt;code&gt;</span>list-style-type: none<span class="nt">&lt;/code&gt;</span> and <span class="nt">&lt;code&gt;</span>padding: 0<span class="nt">&lt;/code&gt;</span> on
+</span><span class='line'>            the <span class="nt">&lt;code&gt;</span>ul<span class="nt">&lt;/code&gt;</span> element inside the <span class="nt">&lt;code&gt;</span>nav<span class="nt">&lt;/code&gt;</span> element.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Set <span class="nt">&lt;code&gt;</span>display: inline-block<span class="nt">&lt;/code&gt;</span> on
+</span><span class='line'>            the <span class="nt">&lt;code&gt;</span>li<span class="nt">&lt;/code&gt;</span> elements inside the <span class="nt">&lt;code&gt;</span>nav<span class="nt">&lt;/code&gt;</span>
+</span><span class='line'>            element. Note that you can&#39;t just write a rule for all
+</span><span class='line'>            li&#39;s, or the numbered list of tasks will get messed up.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Set <span class="nt">&lt;code&gt;</span>display: block<span class="nt">&lt;/code&gt;</span> on the <span class="nt">&lt;code&gt;</span>a<span class="nt">&lt;/code&gt;</span>
+</span><span class='line'>            elements inside the nav. Give them a different background
+</span><span class='line'>            color, and some padding. Perhaps try a little bit of side
+</span><span class='line'>            margin if you want to seperate them a bit from each other,
+</span><span class='line'>            or maybe a border or some rounded corners.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Use the <span class="nt">&lt;code&gt;</span>hover<span class="nt">&lt;/code&gt;</span> pseudo-class to make the nav elements react to
+</span><span class='line'>            the mouse cursor passing over them. Your choice as to how they react. A couple
+</span><span class='line'>            of ideas: change color, change border, change background color, etc.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Space out the numbered task <span class="nt">&lt;code&gt;</span>li<span class="nt">&lt;/code&gt;</span> elements from each other a bit,
+</span><span class='line'>            using top and/or bottom margins.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Make the <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>code<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> elements look better! Your choice as to how.
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>          <span class="nt">&lt;li&gt;</span>
+</span><span class='line'>            Feel free to make more tweaks! Try out a background
+</span><span class='line'>            gradient or a CSS transform!
+</span><span class='line'>          <span class="nt">&lt;/li&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;/ol&gt;</span>
+</span><span class='line'>      <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nt">&lt;/body&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -484,6 +706,10 @@ if you need help, or you can ask Cornish IT Support or go to the Apple Store.</p
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/de271-fa14/2014/09/27/second-css-worksheet/">Second CSS Worksheet</a>
+      </li>
+    
+      <li class="post">
         <a href="/de271-fa14/2014/09/27/more-on-the-box-model/">More on the Box Model</a>
       </li>
     
@@ -497,10 +723,6 @@ if you need help, or you can ask Cornish IT Support or go to the Apple Store.</p
     
       <li class="post">
         <a href="/de271-fa14/2014/09/21/first-css-worksheet/">First CSS Worksheet</a>
-      </li>
-    
-      <li class="post">
-        <a href="/de271-fa14/2014/09/17/html-part-2-and-more-git/">HTML Part 2 (and More Git)</a>
       </li>
     
   </ul>

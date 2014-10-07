@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-09-27T22:51:47-07:00</updated>
+  <updated>2014-10-06T20:23:22-07:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Questions Regarding CSS Worksheet 2]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/10/06/questions-regarding-css-worksheet-2/"/>
+    <updated>2014-10-06T20:10:46-07:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/10/06/questions-regarding-css-worksheet-2</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s the video from Thursday&rsquo;s class, answering questions about the
+second CSS worksheet:</p>
+
+<iframe src="//player.vimeo.com/video/108092757" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Second CSS Worksheet]]></title>

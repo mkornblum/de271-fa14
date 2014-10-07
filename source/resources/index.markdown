@@ -22,6 +22,7 @@ footer: true
 - [Jeremy](https://github.com/Jquick24)
 - [Evelyn](https://github.com/EvyGold)
 - [Liz](https://github.com/elusha)
+- [Amy](https://github.com/amyrosa)
 
 ###HTML and CSS References
 

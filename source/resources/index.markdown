@@ -30,6 +30,8 @@ footer: true
 - [List of CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [Gridlover](http://www.gridlover.net/) - tool to help establish
   typographic rhythm using CSS
+- [Initializr](http://www.initializr.com/) - Custom downloads of HTML5
+  Boilerplate template
 
 ###Meetups and Things Like That
 

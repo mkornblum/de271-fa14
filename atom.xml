@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-10-21T12:45:50-07:00</updated>
+  <updated>2014-11-05T23:11:00-08:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Responsive Photo Grid]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/11/05/responsive-photo-grid/"/>
+    <updated>2014-11-05T21:56:40-08:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/11/05/responsive-photo-grid</id>
+    <content type="html"><![CDATA[<p>Building a responsive photo grid:</p>
+
+<iframe src="//player.vimeo.com/video/110969885" width="500"
+height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+
+<p>Some more responsive design resources:</p>
+
+<ul>
+<li><a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</a> -
+maybe the article that started it all</li>
+<li><a href="http://mediaqueri.es/">mediaqueri.es</a> - Responsive web design
+gallery</li>
+<li><a href="http://demos.jquerymobile.com/1.4.0/rwd/">jQuery mobile article on Responsive Web Design</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Brief Intro to DNS]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/11/05/brief-intro-to-dns/"/>
+    <updated>2014-11-05T21:56:24-08:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/11/05/brief-intro-to-dns</id>
+    <content type="html"><![CDATA[<p>A brief overview of registering domain names, hosting, and more:</p>
+
+<iframe src="//player.vimeo.com/video/110969884" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<p>Here the article I mentioned about the woman who tried to hide her
+pregancy from Google and Facebook:</p>
+
+<p>(Meet The Woman Who Did Everything In Her Power To Hide Her Pregnancy From Big Data)[<a href="http://thinkprogress.org/culture/2014/04/29/3432050/can-you-hide-from-big-data/">http://thinkprogress.org/culture/2014/04/29/3432050/can-you-hide-from-big-data/</a>]</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Food Project Examples]]></title>

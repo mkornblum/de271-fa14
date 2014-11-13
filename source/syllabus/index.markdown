@@ -7,22 +7,22 @@ sharing: true
 footer: true
 ---
 
-Cornish College of the Arts  
-Design Department, Fall Semester 2014  
-**Course Code:** DE-271  
-**Course Name:** Interactive Publishing I  
-**Days/Times:** Tuesday/Thursday, 4:30pm-5:55pm  
-**Room:** MCC Room 405  
+Cornish College of the Arts
+Design Department, Fall Semester 2014
+**Course Code:** DE-271
+**Course Name:** Interactive Publishing I
+**Days/Times:** Tuesday/Thursday, 4:30pm-5:55pm
+**Room:** MCC Room 405
 
 **Faculty Name:** Mark Kornblum
 
 **Contact information:**
 
 Email: [mkornblum@cornish.edu](mailto:mkornblum@cornish.edu) or
-[mark.kornblum@gmail.com](mailto:mark.kornblum@gmail.com)  
-Cell: 206.393.8581  
-Twitter/Github: [mkornblum](http://twitter.com/mkornblum)  
-GChat: mark.kornblum  
+[mark.kornblum@gmail.com](mailto:mark.kornblum@gmail.com)
+Cell: 206.393.8581
+Twitter/Github: [mkornblum](http://twitter.com/mkornblum)
+GChat: mark.kornblum
 
 ## Course Description
 
@@ -169,18 +169,18 @@ complain" are not the same thing.
 
 ### Grading System
 
-A = 95 - 100%  
-A- = 90 - 94%  
-B+ = 85 - 89%  
-B = 80 - 84%  
-B- = 75 - 79%  
-C+ = 70 - 74%  
-C = 65 - 69%  
-C- = 60 - 64%  
-D+ = 55 - 59%  
-D = 51 - 54%  
-D- = 50%  
-F = 49% and below  
+A = 95 - 100%
+A- = 90 - 94%
+B+ = 85 - 89%
+B = 80 - 84%
+B- = 75 - 79%
+C+ = 70 - 74%
+C = 65 - 69%
+C- = 60 - 64%
+D+ = 55 - 59%
+D = 51 - 54%
+D- = 50%
+F = 49% and below
 
 ### Late Projects
 
@@ -313,7 +313,7 @@ Discussion/Lecture:
 - Committing and pushing
 - HTML Intro (if time)
 
-_Homework:_  
+_Homework:_
 Transform your text file from last week into a web
 page. At a minimum, you should use several different header tags
 (\<h1\>, \<h2\>, etc), a link ("\<a\>" tag) to each of the sites you
@@ -414,22 +414,21 @@ Suggested Reading: chapter 16, "Images" in "Interact With Web Standards".
 
 **Thursday, October 2nd**
 
-Studio Time - Complete food project websites. Commit and push to Github.
+Studio Time - Work on food project websites. Commit and push to Github.
 
 ### Week 6
 **Tuesday, October 7th**
-
-_TBA, Mark out of town_
+Guest lecture: Kevin Fox of Substantial
 
 **Thursday, October 9th**
 
-_TBA, Mark out of town_
+_No Class, Mark out of town_
 
 ### Week 7
 **Tuesday, October 14th**
 
 **Thursday, October 16th**
-
+Demo: [Templates and Media Queries](http://mkornblum.github.io/de271-fa14/2014/10/16/templates-and-media-queries/)
 
 ### Week 8
 **Tuesday, October 21st**
@@ -443,25 +442,29 @@ _(Midterm Review meetings ongoing during class period)_
 ### Week 9
 **Tuesday, October 28th**
 
-
 **Thursday, October 30th**
+Demo: [Brief overview of domain name registration and hosting](http://mkornblum.github.io/de271-fa14/2014/11/05/brief-intro-to-dns/)
 
 ### Week 10
 **Tuesday, November 4th**
+Demo: [Building a responsive photo grid](http://mkornblum.github.io/de271-fa14/2014/11/05/responsive-photo-grid/)
 
 **Thursday, November 6th**
+Demo: Javascript Intro
 
 ### Week 11
 **Tuesday, November 11th**
 _NO CLASS, VETERAN'S DAY_
 
 **Thursday, November 13th**
+Demo: Modal and Lightbox effects using jQuery
 
 ### Week 12
 **Tuesday, November 18th**
-
+Studio Period - build a photo gallery site
 
 **Thursday, November 20th**
+DUE: Photo Gallery Site
 
 ### Week 13
 **Tuesday, November 25th**

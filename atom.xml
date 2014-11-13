@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-11-12T22:26:54-08:00</updated>
+  <updated>2014-11-12T23:46:16-08:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Intro]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/11/12/javascript-intro/"/>
+    <updated>2014-11-12T23:42:44-08:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/11/12/javascript-intro</id>
+    <content type="html"><![CDATA[<iframe src="//player.vimeo.com/video/111713832" width="500"
+height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+
+<p>Some links for today:</p>
+
+<ul>
+<li><a href="http://blog.froont.com/9-basic-principles-of-responsive-web-design/">9 basic principles of responsive web desgin</a></li>
+<li><a href="http://learn.shayhowe.com/">Learn to Code HTML &amp; CSS</a> - by Shay Howe</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Responsive Photo Grid]]></title>

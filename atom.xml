@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-11-12T23:46:16-08:00</updated>
+  <updated>2014-11-17T22:30:29-08:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lightbox Demo Using Strip]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/11/17/lightbox-demo-using-strip/"/>
+    <updated>2014-11-17T22:27:43-08:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/11/17/lightbox-demo-using-strip</id>
+    <content type="html"><![CDATA[<iframe src="//player.vimeo.com/video/112140629" width="500"
+height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+
+<p>The example code is available on the
+<a href="https://github.com/mkornblum/de271-fa14-examples/tree/master/image-gallery">class examples Github</a></p>
+
+<p>Please also read this:
+<a href="http://bradfrost.com/blog/post/development-is-design/">Development Is Design</a>,
+by Brad Frost.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Intro]]></title>

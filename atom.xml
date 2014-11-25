@@ -4,7 +4,7 @@
   <title><![CDATA[DE271 Fall 2014]]></title>
   <link href="https://mkornblum.github.io/de271-fa14/atom.xml" rel="self"/>
   <link href="https://mkornblum.github.io/de271-fa14/"/>
-  <updated>2014-11-17T22:30:29-08:00</updated>
+  <updated>2014-11-24T23:00:07-08:00</updated>
   <id>https://mkornblum.github.io/de271-fa14/</id>
   <author>
     <name><![CDATA[Mark Kornblum]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Preparing Photoshop and Similar Files for Developers]]></title>
+    <link href="https://mkornblum.github.io/de271-fa14/2014/11/24/preparing-photoshop-and-similar-files-for-developers/"/>
+    <updated>2014-11-24T22:56:35-08:00</updated>
+    <id>https://mkornblum.github.io/de271-fa14/2014/11/24/preparing-photoshop-and-similar-files-for-developers</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s a few articles you may find helpful:</p>
+
+<ul>
+<li><a href="http://photoshopetiquette.com/">Photoshop Etiququette</a></li>
+<li><p><a href="http://twosixcode.com/notes/view/items-to-consider-when-preparing-a-psd-for-handoff-to-a-web-developer">Items to Consider when Preparing a PSD</a></p></li>
+<li><p><a href="http://viget.com/inspire/handing-off-psds-that-wont-make-your-co-workers-hate-you">Handing off PSDs that Won&rsquo;t Make Your Co-Workers Hate you</a></p></li>
+<li><p><a href="http://xhtmlized.com/blog/10-photoshop-tips-easy-psd-html-conversion/">10 Photoshop Tips for Easy PSD to HTML Conversion</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lightbox Demo Using Strip]]></title>
